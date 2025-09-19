@@ -3,7 +3,7 @@
 This project is a **Library Management System** built using PostgreSQL with advanced SQL features such as **stored procedures, triggers, functions, and constraints**.  
 It simulates real-world library operations including book issue, book return, employee management, and tracking members.
 
----
+
 
 ## 📂 Project Files
 - **Library_project.sql** → Base schema creation with tables.  
@@ -12,7 +12,7 @@ It simulates real-world library operations including book issue, book return, em
 - **ERD_schemas.pgerd** → ERD schema file (can be opened in pgAdmin or DBeaver).  
 - **ERD_schemas.pgerd.png** → Entity Relationship Diagram (ERD) image for quick view.  
 
----
+
 
 ## 🗄️ Database Schema
 The database consists of the following main tables:
@@ -60,7 +60,7 @@ The database consists of the following main tables:
    - return_date
    - return_book_isbn  
 
----
+
 
 ## ⚙️ Features
 - ✅ **Add new books, members, and employees**  
@@ -71,14 +71,14 @@ The database consists of the following main tables:
   - `issue_book()` → Issues a book if available  
   - `add_return_records()` → Returns a book and updates status  
 
----
+
 
 ## 📊 Entity Relationship Diagram
 Below is the ERD (Entity Relationship Diagram) of the Library Management System:
 
 ![Library ERD](ERD_schemas.pgerd.png)
 
----
+
 
 ## 🚀 Getting Started
 
